@@ -1,4 +1,5 @@
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses parametrized tests and random data generation
 
 # Copyright (c) Facebook, Inc. and its affiliates. All rights reserved.
 #

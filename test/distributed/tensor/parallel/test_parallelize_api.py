@@ -1,4 +1,5 @@
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 from collections import OrderedDict
 from copy import deepcopy
 

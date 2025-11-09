@@ -1,4 +1,5 @@
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 # This test file contains positive tests for c10d with NCCL backend.
 # During the test, it is expected that ProcessGroup will not be aborted, destroyed or incur fatal error.
 # Please be mindful of this when adding tests here.

@@ -1,4 +1,5 @@
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses parametrized tests
 # To run:
 # python test/distributed/test_nvshmem_triton.py
 

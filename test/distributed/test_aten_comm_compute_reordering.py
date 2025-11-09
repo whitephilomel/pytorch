@@ -1,5 +1,6 @@
 # flake8: noqa: B950
 # Owner(s): ["module: inductor"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 import unittest
 from unittest.mock import patch
 

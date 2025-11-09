@@ -1,4 +1,5 @@
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 import torch
 from torch.distributed.fsdp._trace_utils import _ExecOrderTracer
 from torch.testing._internal.common_device_type import instantiate_device_type_tests

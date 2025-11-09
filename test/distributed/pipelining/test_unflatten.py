@@ -1,5 +1,6 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 import torch
 from torch.distributed.pipelining import pipe_split, pipeline
 from torch.testing._internal.common_device_type import instantiate_device_type_tests

@@ -1,4 +1,5 @@
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 import torch
 import torch.distributed._functional_collectives as funcol
 import torch.distributed.tensor._random as random

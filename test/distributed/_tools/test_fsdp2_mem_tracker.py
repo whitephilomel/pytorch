@@ -1,4 +1,5 @@
 # Owner(s): ["module: fsdp"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 import functools
 import gc
 from typing import Union

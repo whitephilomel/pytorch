@@ -1,4 +1,5 @@
 # Owner(s): ["oncall: distributed checkpointing"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 
 import os
 import shutil
