@@ -1,4 +1,5 @@
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 
 # To run:
 # python test/distributed/test_cupy_as_tensor.py

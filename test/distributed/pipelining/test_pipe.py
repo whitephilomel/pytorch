@@ -1,5 +1,6 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses parametrized tests and random data generation
 from model_registry import MLPModule, ModelWithParamAlias
 
 import torch

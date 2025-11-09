@@ -1,4 +1,5 @@
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses parametrized tests and random data generation
 import sys
 from contextlib import nullcontext
 from enum import auto, Enum

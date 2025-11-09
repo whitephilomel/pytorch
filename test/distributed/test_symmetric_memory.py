@@ -1,4 +1,5 @@
 # Owner(s): ["module: c10d"]
+# FUZZ_TESTING_CANDIDATE: This test uses parametrized tests and random data generation
 
 import itertools
 import os

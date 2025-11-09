@@ -1,5 +1,6 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 import os
 import unittest
 from datetime import timedelta

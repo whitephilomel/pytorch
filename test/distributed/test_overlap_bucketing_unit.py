@@ -1,4 +1,5 @@
 # Owner(s): ["module: inductor"]
+# FUZZ_TESTING_CANDIDATE: This test uses parametrized tests
 import unittest
 
 import torch

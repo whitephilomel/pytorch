@@ -1,4 +1,5 @@
 # Owner(s): ["module: dynamo"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 import contextlib
 import copy
 import functools

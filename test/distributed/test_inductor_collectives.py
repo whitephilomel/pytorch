@@ -1,4 +1,5 @@
 # Owner(s): ["module: dynamo"]
+# FUZZ_TESTING_CANDIDATE: This test uses parametrized tests and random data generation
 import datetime
 import functools
 import unittest

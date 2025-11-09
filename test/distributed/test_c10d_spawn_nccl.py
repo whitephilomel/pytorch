@@ -1,4 +1,5 @@
 # Owner(s): ["oncall: distributed"]
+# FUZZ_TESTING_CANDIDATE: This test uses random data generation
 
 
 from test_c10d_spawn import _torch_dist_nn_available, TestDistributedNNFunctions
